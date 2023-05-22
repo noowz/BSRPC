@@ -1,6 +1,6 @@
 {
 	"name": "bsrpc",
-	"version": "1.0.2",
+	"version": "1.0.0",
 	"description": "Discord Rich Presence that shows on your profile your Brawl Stars statistics.",
 	"main": "index.js",
 	"scripts": {
@@ -16,6 +16,7 @@
 		"stars",
 		"bs",
 		"brawlstarsapi",
+		"bsapi",
 		"api",
 		"supercell",
 		"data",

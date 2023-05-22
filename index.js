@@ -1,4 +1,4 @@
-const { auth } = require('./config.js');
+const config = require('./config.js');
 const { readdirSync } = require('node:fs');
 const { Client } = require('discord-rpc');
 const client = new Client({
@@ -30,7 +30,7 @@ client.configVerificator = require('./src/utils/configVerificator.js');
 client.configVerificator.init(client);
 
 client.login({
-	clientId: auth.discord.clientID
+	clientId: config.auth.discord.clientID
 }).catch(error => {
 	if (error.message === 'RPC_CONNECTION_TIMEOUT') {
 		console.error(`[DISCORD] An error has occurred.\n➜ ERROR: ${error}`);
