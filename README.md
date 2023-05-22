@@ -6,8 +6,8 @@
 
 <p align="center">
 	<a href="#-about">About</a> |
-  	<a href="#-preview">Preview</a> |
-  	<a href="#-installation">Installation</a> |
+  	<a href="#%EF%B8%8F-preview">Preview</a> |
+  	<a href="#%EF%B8%8F-installation">Installation</a> |
   	<a href="#-how-to-use">How to use</a> |
   	<a href="#-bugs">Bugs</a> |
 	<a href="#-suggestionsquestions">Suggestions/Questions</a> |
