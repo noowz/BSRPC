@@ -4,6 +4,8 @@
 	</a>
 </p>
 
+---
+
 <p align="center">
 	<a href="#-about">About</a> |
   	<a href="#%EF%B8%8F-preview">Preview</a> |
@@ -77,7 +79,7 @@ If you have any questions or want to give some suggestions, send them on the [is
 
 ## 📝 **License**
 
-This project is licensed under the <a href="./LICENSE" target="blank">BSD 2-Clause License</a> license.
+This project is licensed under the [BSD 2-Clause License](./LICENSE) license.
 
 ---
 
