@@ -35,6 +35,6 @@ client.login({
 	if (error.message === 'RPC_CONNECTION_TIMEOUT') {
 		console.error(`[DISCORD] An error has occurred.\n➜ ERROR: ${error}`);
 
-		process.exit();
+		process.exit(1);
 	};
 });

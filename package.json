@@ -1,6 +1,6 @@
 {
 	"name": "bsrpc",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Discord Rich Presence that shows on your profile your Brawl Stars statistics.",
 	"main": "index.js",
 	"scripts": {
@@ -16,7 +16,7 @@
 		"brawlstars"
 	],
 	"author": "Fastxyz",
-	"license": "GPL-3.0",
+	"license": "BSD 2-Clause License",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Fastxyz/BSRPC.git"
@@ -27,9 +27,9 @@
 	"homepage": "https://github.com/Fastxyz/BSRPC/#readme",
 	"dependencies": {
 		"discord-rpc": "^4.0.1",
-		"node-fetch-commonjs": "^3.1.1"
+		"node-fetch-commonjs": "^3.2.4"
 	},
 	"devDependencies": {
-		"eslint": "^8.17.0"
+		"eslint": "^8.41.0"
 	}
 }
