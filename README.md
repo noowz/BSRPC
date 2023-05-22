@@ -1,6 +1,6 @@
 <p align="center">
 	<a href="https://github.com/Fastxyz/BSRPC" title="BSRPC">
-    	<img src="https://i.imgur.com/Qz4vUoT.png" width="256" alt="BSRPC">
+		<img src="https://i.imgur.com/Qz4vUoT.png" width="256" alt="BSRPC">
 	</a>
 </p>
 
