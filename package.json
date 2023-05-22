@@ -9,22 +9,43 @@
 	"keywords": [
 		"discord",
 		"rpc",
-		"javascript",
-		"js",
 		"discord.js",
 		"djs",
-		"brawlstars"
+		"brawlstars",
+		"brawl",
+		"stars",
+		"bs",
+		"brawlstarsapi",
+		"api",
+		"supercell",
+		"data",
+		"info",
+		"stats",
+		"javascript",
+		"js",
+		"node",
+		"npm"
 	],
-	"author": "Fastxyz",
+	"author": {
+		"name": "Fastxyz",
+		"email": "danieeel.dev@gmail.com",
+		"url": "https://github.com/Fastxyz"
+	},
 	"license": "BSD 2-Clause License",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Fastxyz/BSRPC.git"
+		"url": "https://github.com/Fastxyz/BSRPC"
 	},
 	"bugs": {
 		"url": "https://github.com/Fastxyz/BSRPC/issues"
 	},
-	"homepage": "https://github.com/Fastxyz/BSRPC/#readme",
+	"homepage": "https://github.com/Fastxyz/BSRPC",
+	"funding": [
+		{
+			"type": "github",
+			"url": "https://github.com/sponsors/Fastxyz"
+		}
+	],
 	"dependencies": {
 		"discord-rpc": "^4.0.1",
 		"node-fetch-commonjs": "^3.2.4"
