@@ -33,7 +33,7 @@
 		"email": "danieeel.dev@gmail.com",
 		"url": "https://github.com/Fastxyz"
 	},
-	"license": "BSD 2-Clause License",
+	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Fastxyz/BSRPC"

@@ -79,7 +79,7 @@ If you have any questions or want to give some suggestions, send them on the [is
 
 ## 📝 **License**
 
-This project is licensed under the [BSD 2-Clause License](./LICENSE) license.
+This project is licensed under the [MIT](./LICENSE) license.
 
 ---
 
