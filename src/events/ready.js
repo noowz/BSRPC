@@ -1,4 +1,5 @@
-const { rpc } = require('../../rpc/rpc.js')
+const { rpc } = require('../rpc/rpc.js');
+const logger = require('../utils/logger.js');
 
 module.exports = {
 	name: 'ready',
@@ -11,6 +12,6 @@ module.exports = {
 			rpc(client);
 		}, 60000);
 
-		console.log('[DISCORD] RPC connected to Discord!');
+		console.log(logger.info + 'RPC connected to Discord!');
 	}
 };

@@ -1,5 +1,5 @@
 <p align="center">
-	<a target="_blank" href="https://github.com/Fastxyz/BSRPC" title="BSRPC">
+	<a target="_blank" href="https://github.com/Noowz/BSRPC" title="BSRPC">
 		<img src="https://i.imgur.com/Qz4vUoT.png" width="256" alt="BSRPC" draggable="false">
 	</a>
 </p>
@@ -34,7 +34,7 @@
 ## **⚒️ Installation**
 
 1. Download [Node.js](https://nodejs.org/en/download).
-2. Download [BSRPC](https://github.com/Fastxyz/BSRPC/archive/refs/heads/main.zip).
+2. Download [BSRPC](https://github.com/Noowz/BSRPC/archive/refs/heads/main.zip).
 
 ---
 
@@ -65,15 +65,15 @@
 
 ## 🐛 **Bugs**
 
-If you find any bugs, report them on the [issues section](https://github.com/Fastxyz/BSRPC/issues).
+If you find any bugs, report them on the [issues section](https://github.com/Noowz/BSRPC/issues).
 
-If you find any bugs and know how to solve them or if you want to add something and you know how to add it, create a pull request on the [pull request section](https://github.com/Fastxyz/BSRPC/pulls).
+If you find any bugs and know how to solve them or if you want to add something and you know how to add it, create a pull request on the [pull request section](https://github.com/Noowz/BSRPC/pulls).
 
 ---
 
 ## 💁 **Suggestions/Questions**
 
-If you have any questions or want to give some suggestions, send them on the [issues section](https://github.com/Fastxyz/BSRPC/issues).
+If you have any questions or want to give some suggestions, send them on the [issues section](https://github.com/Noowz/BSRPC/issues).
 
 ---
 

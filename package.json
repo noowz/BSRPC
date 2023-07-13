@@ -1,10 +1,12 @@
 {
 	"name": "bsrpc",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Discord Rich Presence that shows on your profile your Brawl Stars statistics.",
 	"main": "index.js",
 	"scripts": {
-		"start": "node ."
+		"start": "node .",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
 	},
 	"keywords": [
 		"discord",
@@ -29,30 +31,31 @@
 		"npm"
 	],
 	"author": {
-		"name": "Fastxyz",
+		"name": "Noowz",
 		"email": "danieeel.dev@gmail.com",
-		"url": "https://github.com/Fastxyz"
+		"url": "https://github.com/noowz"
 	},
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Fastxyz/BSRPC"
+		"url": "https://github.com/noowz/BSRPC"
 	},
 	"bugs": {
-		"url": "https://github.com/Fastxyz/BSRPC/issues"
+		"url": "https://github.com/noowz/BSRPC/issues"
 	},
-	"homepage": "https://github.com/Fastxyz/BSRPC",
+	"homepage": "https://github.com/noowz/BSRPC#readme",
 	"funding": [
 		{
 			"type": "github",
-			"url": "https://github.com/sponsors/Fastxyz"
+			"url": "https://github.com/sponsors/noowz"
 		}
 	],
 	"dependencies": {
-		"discord-rpc": "^4.0.1",
-		"node-fetch-commonjs": "^3.2.4"
+		"axios": "^1.4.0",
+		"chalk": "^4.1.2",
+		"discord-rpc": "^4.0.1"
 	},
 	"devDependencies": {
-		"eslint": "^8.41.0"
+		"eslint": "^8.44.0"
 	}
 }
