@@ -1,5 +1,5 @@
 <p align="center">
-	<a target="_blank" href="https://github.com/Noowz/BSRPC" title="BSRPC">
+	<a target="_blank" href="https://github.com/noowz/BSRPC" title="BSRPC">
 		<img src="https://i.imgur.com/Qz4vUoT.png" width="256" alt="BSRPC" draggable="false">
 	</a>
 </p>
@@ -34,7 +34,7 @@
 ## **⚒️ Installation**
 
 1. Download [Node.js](https://nodejs.org/en/download).
-2. Download [BSRPC](https://github.com/Noowz/BSRPC/archive/refs/heads/main.zip).
+2. Download [BSRPC](https://github.com/noowz/BSRPC/archive/refs/heads/main.zip).
 
 ---
 
@@ -44,10 +44,10 @@
 
    ![Brawl Stars Player Tag](https://i.imgur.com/zaFFD4E.gif)
 
-2. Go to the `config.js` file and replace **YOUR PLAYER TAG** with your Brawl Stars player tag.
+2. Go to the `config.json` file and replace **YOUR PLAYER TAG** with your Brawl Stars player tag.
 3. Go to the [Brawl Stars API Dashboard](https://developer.brawlstars.com) and create an account or log in to your account.
 4. Create a [new API key](https://developer.brawlstars.com/#/new-key). You will need to allow your IP Address. To find out your IP Address, [click here](https://nordvpn.com/what-is-my-ip).
-5. Go to the `config.js` file and replace **YOUR API KEY** with your API key.
+5. Go to the `config.json` file and replace **YOUR API KEY** with your API key.
 6. Open the CMD/Terminal and go to the folder where you saved the files with the `cd` command.
 7. Install all the required dependencies:
 
@@ -65,15 +65,15 @@
 
 ## 🐛 **Bugs**
 
-If you find any bugs, report them on the [issues section](https://github.com/Noowz/BSRPC/issues).
+If you find any bugs, report them on the [issues section](https://github.com/noowz/BSRPC/issues).
 
-If you find any bugs and know how to solve them or if you want to add something and you know how to add it, create a pull request on the [pull request section](https://github.com/Noowz/BSRPC/pulls).
+If you find any bugs and know how to solve them or if you want to add something and you know how to add it, create a pull request on the [pull request section](https://github.com/noowz/BSRPC/pulls).
 
 ---
 
 ## 💁 **Suggestions/Questions**
 
-If you have any questions or want to give some suggestions, send them on the [issues section](https://github.com/Noowz/BSRPC/issues).
+If you have any questions or want to give some suggestions, send them on the [issues section](https://github.com/noowz/BSRPC/issues).
 
 ---
 
