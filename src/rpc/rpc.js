@@ -17,7 +17,7 @@ if (firstTimeRunningRPC) {
 };
 
 const rpc = async function setActivity(client) {
-	const playerResponse = await axios({
+	const response = await axios({
 		method: 'GET',
 		url: `https://api.brawlstars.com/v1/players/%23${config.settings.user.playerTag.replace('#', '')}`,
 		headers: {
@@ -61,7 +61,7 @@ const rpc = async function setActivity(client) {
 		};
 	});
 
-	const player = await playerResponse.data;
+	const player = await response.data;
 
 	client.request('SET_ACTIVITY', {
 		pid: process.pid,
