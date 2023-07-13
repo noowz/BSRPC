@@ -85,4 +85,4 @@ This project is licensed under the [MIT](./LICENSE) license.
 
 ## 📌 **Disclaimer**
 
-> This content is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it. For more information see [Supercell’s Fan Content Policy](https://supercell.com/en/fan-content-policy).
+> This material is unofficial and is not endorsed by Supercell. For more information see Supercell's Fan Content Policy: [Supercell’s Fan Content Policy](https://supercell.com/en/fan-content-policy).
