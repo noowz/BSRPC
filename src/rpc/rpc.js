@@ -39,7 +39,7 @@ const rpc = async function setActivity(client) {
 
 			process.exit(1);
 		} else if (error.response.status === 404) {
-			console.error(logger.error + `You provided an invalid player tag. Check if it is correct. ${chalk.redBright(`[ERROR: ${error.response.status} - ${error.response.statusText} (${error.response.data.reason})]`)}`);
+			console.error(logger.error + `You provided an invalid player tag. Check if it is correct in the config file. ${chalk.redBright(`[ERROR: ${error.response.status} - ${error.response.statusText} (${error.response.data.reason})]`)}`);
 
 			process.exit(1);
 		} else if (error.response.status === 429) {
@@ -59,7 +59,7 @@ const rpc = async function setActivity(client) {
 
 			process.exit(1);
 		};
-	})
+	});
 
 	const player = await playerResponse.data;
 
