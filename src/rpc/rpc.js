@@ -1,7 +1,4 @@
-const repository = require('../../package.json').repository.url;
-const name = require('../../package.json').name;
-const version = require('../../package.json').version;
-const issues = require('../../package.json').bugs.url;
+const package = require('../../package.json');
 const config = require('../../config.json');
 const logger = require('../utils/logger.js');
 const chalk = require('chalk');
@@ -23,11 +20,11 @@ const rpc = async function setActivity(client) {
 		headers: {
 			'Authorization': `Bearer ${config.auth.brawlstars.token}`,
 			'Content-Type': 'application/json',
-			'User-Agent': `${name.toUpperCase()}/${version}`
+			'User-Agent': `${package.name.toUpperCase()}/${package.version}`
 		}
 	}).catch(function (error) {
 		if (error.response.status === 400) {
-			console.error(logger.error + `The Client is providing incorrect parameters for the request. Report this at ${issues} ! ${chalk.redBright(`[ERROR: ${error.response.status} - ${error.response.statusText} (${error.response.data.reason})]`)}`);
+			console.error(logger.error + `The Client is providing incorrect parameters for the request. Report this at ${package.bugs.url} ! ${chalk.redBright(`[ERROR: ${error.response.status} - ${error.response.statusText} (${error.response.data.reason})]`)}`);
 
 			process.exit(1);
 		} else if (error.response.status === 403 && error.response.data.reason === 'accessDenied') {
@@ -55,7 +52,7 @@ const rpc = async function setActivity(client) {
 
 			process.exit(1);
 		} else {
-			console.error(logger.error + `An error has occurred. Report this at ${issues} ! ${chalk.redBright(`[ERROR: ${error.response.status} - ${error.response.statusText} (${error.response.data.reason})]`)}`);
+			console.error(logger.error + `An error has occurred. Report this at ${package.bugs.url} ! ${chalk.redBright(`[ERROR: ${error.response.status} - ${error.response.statusText} (${error.response.data.reason})]`)}`);
 
 			process.exit(1);
 		};
@@ -73,14 +70,14 @@ const rpc = async function setActivity(client) {
 			},
 			assets: {
 				large_image: 'logo',
-				large_text: `${name.toUpperCase()} v${version}`,
+				large_text: `${package.name.toUpperCase()} v${package.version}`,
 				small_image: `https://cdn.brawlify.com/profile/${player.icon.id}.png`,
 				small_text: `${player.name} (${player.tag})`
 			},
 			buttons: [
 				{
 					label: '🚀 Download',
-					url: repository
+					url: package.repository.url
 				}
 			]
 		}

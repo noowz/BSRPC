@@ -1,5 +1,5 @@
-const { rpc } = require('../rpc/rpc.js');
 const logger = require('../utils/logger.js');
+const { rpc } = require('../rpc/rpc.js');
 
 module.exports = {
 	name: 'ready',
