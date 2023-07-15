@@ -1,6 +1,6 @@
 {
 	"name": "bsrpc",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Discord Rich Presence that shows on your profile your Brawl Stars statistics.",
 	"main": "index.js",
 	"scripts": {
