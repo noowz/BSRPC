@@ -22,7 +22,7 @@ const rpc = async function setActivity(client) {
 			'Content-Type': 'application/json',
 			'User-Agent': `${package.name.toUpperCase()}/${package.version}`
 		}
-	}).catch(function (error) {
+	}).catch(error => {
 		if (error.response.status === 400) {
 			console.error(logger.error + `The Client is providing incorrect parameters for the request. Report this at ${package.bugs.url} ! ${chalk.redBright(`[ERROR: ${error.response.status} - ${error.response.statusText} (${error.response.data.reason})]`)}`);
 
