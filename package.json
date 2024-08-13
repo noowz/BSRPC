@@ -1,0 +1,47 @@
+{
+	"name": "bsrpc",
+	"version": "1.0.0",
+	"description": "Discord Rich Presence that shows on your profile your Brawl Stars statistics.",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node ."
+	},
+	"keywords": [
+		"discord",
+		"discordapp",
+		"rpc",
+		"discord-js",
+		"supercell",
+		"djs",
+		"rich-presence",
+		"brawl-stars",
+		"supercell-brawl-stars",
+		"brawl-stars-api"
+	],
+	"author": {
+		"name": "Noowz",
+		"email": "danieeel.dev@gmail.com",
+		"url": "https://github.com/noowz"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/noowz/BSRPC"
+	},
+	"bugs": {
+		"url": "https://github.com/noowz/BSRPC/issues"
+	},
+	"homepage": "https://github.com/noowz/BSRPC#readme",
+	"funding": [
+		{
+			"type": "github",
+			"url": "https://github.com/sponsors/noowz"
+		}
+	],
+	"dependencies": {
+		"axios": "^1.7.3",
+		"chalk": "^4.1.2",
+		"discord-rpc": "^4.0.1",
+		"google-play-scraper": "^9.2.0"
+	}
+}

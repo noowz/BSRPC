@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"discord": {
+			"client_id": "839894528953810944"
+		},
+		"brawlstars": {
+			"token": "YOUR API KEY"
+		}
+	},
+	"settings": {
+		"user": {
+			"player_tag": "YOUR PLAYER TAG"
+		}
+	}
+}
